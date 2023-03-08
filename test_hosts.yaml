@@ -1,7 +1,7 @@
 ---
 
 R1:
-  hostname: 192.168.41.101
+  hostname: 192.168.4.101
   platform: "juniper_junos"
   username: "john"
   password: "Juniper1"
@@ -12,7 +12,7 @@ R1:
 
 
 R2:
-  hostname: 192.168.41.102
+  hostname: 192.168.4.102
   platform: "cisco_ios"
   username: "john"
   password: "cisco"
