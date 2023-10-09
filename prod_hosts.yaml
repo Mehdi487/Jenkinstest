@@ -1,22 +1,46 @@
 ---
 
-R1:
-  hostname: 192.168.4.201
-  platform: "juniper_junos"
-  username: "john"
-  password: "Juniper1"
-  groups:
-    - juniper_group
-  data:
-    device_name: "R1"
+# CSR1:
+#   hostname: 192.168.2.221
+#   platform: "cisco_ios"
+#   username: "admin"
+#   password: "adminadmin"
+#   groups:
+#     - cisco_group
+#   data:
+#     device_name: "CSR1"
 
 
-R2:
-  hostname: 192.168.4.202
+csr63:
+  hostname: 192.168.2.89
   platform: "cisco_ios"
-  username: "john"
-  password: "cisco"
+  username: "admin"
+  password: "adminadmin"
   groups:
     - cisco_group
   data:
-    device_name: "R2"
+    device_name: "csr63"
+
+
+csr23:
+  hostname: 192.168.2.90
+  platform: "cisco_ios"
+  username: "admin"
+  password: "adminadmin"
+  groups:
+    - cisco_group
+  data:
+    device_name: "csr23"
+
+
+# Switch:
+#   hostname: 192.168.2.92
+#   platform: "cisco_ios"
+#   username: "admin"
+#   password: "adminadmin"
+#   groups:
+#     - cisco_group
+#   data:
+#     device_name: "Switch"
+
+
