@@ -10,7 +10,7 @@ nr = InitNornir(config_file=my_config)
 
 
 def test_connect(task):
-    task.run(task=netmiko_send_command, command_string="show ip interfaces brief")
+    task.run(task=netmiko_send_command, command_string="show ip interface brief")
 
 
 result = nr.run(task=test_connect)
